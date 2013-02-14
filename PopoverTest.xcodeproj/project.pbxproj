@@ -18,6 +18,7 @@
 		7933FDD616CB8B5900138FA0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7933FDD516CB8B5900138FA0 /* Default-568h@2x.png */; };
 		7933FDD916CB8B5900138FA0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7933FDD716CB8B5900138FA0 /* MainStoryboard.storyboard */; };
 		7933FDDC16CB8B5900138FA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7933FDDB16CB8B5900138FA0 /* ViewController.m */; };
+		7933FDE416CB8B9500138FA0 /* Popover.m in Sources */ = {isa = PBXBuildFile; fileRef = 7933FDE316CB8B9500138FA0 /* Popover.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		7933FDD816CB8B5900138FA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		7933FDDA16CB8B5900138FA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7933FDDB16CB8B5900138FA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7933FDE216CB8B9500138FA0 /* Popover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Popover.h; path = PopoverTest/Popover/Popover.h; sourceTree = "<group>"; };
+		7933FDE316CB8B9500138FA0 /* Popover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Popover.m; path = PopoverTest/Popover/Popover.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,8 @@
 		7933FDB316CB8B5900138FA0 = {
 			isa = PBXGroup;
 			children = (
+				7933FDE216CB8B9500138FA0 /* Popover.h */,
+				7933FDE316CB8B9500138FA0 /* Popover.m */,
 				7933FDC516CB8B5900138FA0 /* PopoverTest */,
 				7933FDBE16CB8B5900138FA0 /* Frameworks */,
 				7933FDBD16CB8B5900138FA0 /* Products */,
@@ -176,6 +181,7 @@
 				7933FDCC16CB8B5900138FA0 /* main.m in Sources */,
 				7933FDD016CB8B5900138FA0 /* AppDelegate.m in Sources */,
 				7933FDDC16CB8B5900138FA0 /* ViewController.m in Sources */,
+				7933FDE416CB8B9500138FA0 /* Popover.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +271,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PopoverTest/PopoverTest-Prefix.pch";
 				INFOPLIST_FILE = "PopoverTest/PopoverTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -276,6 +283,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PopoverTest/PopoverTest-Prefix.pch";
 				INFOPLIST_FILE = "PopoverTest/PopoverTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
